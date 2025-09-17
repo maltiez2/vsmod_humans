@@ -6,10 +6,9 @@
 	"textureWidth": 32,
 	"textureHeight": 76,
 	"textureSizes": {
-		"seraph": [32,76]
 	},
 	"textures": {
-		"seraph": "humans:skin/skin1"
+		"seraph": "body"
 	},
 	"elements": [
 		{

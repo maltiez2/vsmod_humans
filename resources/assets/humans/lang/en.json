@@ -1,3 +1,8 @@
 {
-  "game:skinpart-lipscolor": "Lips color"
+  "game:skinpart-lipscolor": "Lips color",
+  "game:skinpart-breasts": "Breasts",
+  "game:skinpart-breasts-none": "None",
+  "game:skinpart-breasts-s": "S",
+  "game:skinpart-breasts-m": "M",
+  "game:skinpart-breasts-l": "L"
 }

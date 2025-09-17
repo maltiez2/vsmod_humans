@@ -8,7 +8,7 @@
 				"code": "baseskin",
 				"type": "texture", 
 				"textureTarget": "seraph",
-				"targetSkinParts": ["base"],
+				"targetSkinParts": ["base", "breasts"],
 				"overlayTexture": false,
 				"variants": [
 					{ "code": "skin1", "texture": "humans:skin/skin1" },
@@ -94,16 +94,31 @@
 				]
 			},
 			{
+				"code": "breasts",
+				"type": "shape",
+				"shapeTemplate": { "base": "humans:breasts/breasts-{code}" },
+				"disableElementsByVariantCode": {
+					"none": ["Breasts"]
+				},
+				"variants": [
+					{ "code": "none"},
+					{ "code": "s" },
+					{ "code": "m" },
+					{ "code": "l" }
+				]
+			},
+			{
 				"code": "underwear",
 				"type": "texture", 
 				"useDropDown": true,
 				"textureTarget": "seraph",
+				"targetSkinParts": ["base", "breasts"],
 				"overlayTexture": true,
 				"overlayMode": "normal",
 				"variants": [
-					{ "code": "twopiece", "texture": "game:entity/humanoid/seraphskinparts/underwear/twopiece" },
-					{ "code": "leotard", "texture": "game:entity/humanoid/seraphskinparts/underwear/leotard" },
-					{ "code": "breeches", "texture": "game:entity/humanoid/seraphskinparts/underwear/breeches" }
+					{ "code": "twopiece", "texture": "humans:underwear/twopiece" },
+					{ "code": "leotard", "texture": "humans:underwear/leotard" },
+					{ "code": "breeches", "texture": "humans:underwear/breeches" }
 				]
 			},
 			{
@@ -111,14 +126,14 @@
 				"type": "voice", 
 				"useDropDown": true,
 				"variants": [
-					{ "code": "altoflute", "sound": "sounds/voice/altoflute" },
-					{ "code": "harmonica", "sound": "sounds/voice/harmonica" },
-					{ "code": "oboe", "sound": "sounds/voice/oboe" },
-					{ "code": "clarinet", "sound": "sounds/voice/clarinet" },
-					{ "code": "accordion", "sound": "sounds/voice/accordion" },
-					{ "code": "trumpet", "sound": "sounds/voice/trumpet" },
-					{ "code": "sax", "sound": "sounds/voice/sax" },
-					{ "code": "tuba", "sound": "sounds/voice/tuba" }
+					{ "code": "altoflute", "sound": "game:sounds/voice/altoflute" },
+					{ "code": "harmonica", "sound": "game:sounds/voice/harmonica" },
+					{ "code": "oboe", "sound": "game:sounds/voice/oboe" },
+					{ "code": "clarinet", "sound": "game:sounds/voice/clarinet" },
+					{ "code": "accordion", "sound": "game:sounds/voice/accordion" },
+					{ "code": "trumpet", "sound": "game:sounds/voice/trumpet" },
+					{ "code": "sax", "sound": "game:sounds/voice/sax" },
+					{ "code": "tuba", "sound": "game:sounds/voice/tuba" }
 				]
 			},
 			{
@@ -136,7 +151,7 @@
 			{
 				"code": "hairbase",
 				"type": "shape",
-				"shapeTemplate": { "base": "entity/humanoid/seraphskinparts/hair-base/{code}" },
+				"shapeTemplate": { "base": "game:entity/humanoid/seraphskinparts/hair-base/{code}" },
 				"variants": [
 					{ "code": "afro" },
 					{ "code": "bald" },
@@ -166,13 +181,13 @@
 					{ "code": "short-parted" },
 					{ "code": "shortspiky" },
 					{ "code": "short-trimmed" },
-					{ "code": "tonsure" },
-				],
+					{ "code": "tonsure" }
+				]
 			},
 			{ 
 				"code": "hairextra",
 				"type": "shape", 
-				"shapeTemplate": { "base": "entity/humanoid/seraphskinparts/hair-extra/{code}" },
+				"shapeTemplate": { "base": "game:entity/humanoid/seraphskinparts/hair-extra/{code}" },
 				"variants": [
 					{ "code": "none" },
 					{ "code": "backbun" },
