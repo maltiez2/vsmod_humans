@@ -97,18 +97,18 @@
 				"code": "breasts",
 				"type": "shape",
 				"shapeTemplate": { "base": "humans:breasts/breasts-{code}" },
-				"disableElementsByVariantCode": {
-					"none": ["Breasts", "Breasts-S", "Breasts-M", "Breasts-L"],
-					"s": ["Breasts-M", "Breasts-L"],
-					"m": ["Breasts-S", "Breasts-L"],
-					"l": ["Breasts-S", "Breasts-M"]
-				},
 				"variants": [
 					{ "code": "none"},
 					{ "code": "s" },
 					{ "code": "m" },
 					{ "code": "l" }
-				]
+				],
+				"disableElementsByVariantCode": {
+					"none": ["Breasts-S", "Breasts-M", "Breasts-L"],
+					"s": ["Breasts-M", "Breasts-L"],
+					"m": ["Breasts-S", "Breasts-L"],
+					"l": ["Breasts-S", "Breasts-M"]
+				}
 			},
 			{
 				"code": "underwear",
