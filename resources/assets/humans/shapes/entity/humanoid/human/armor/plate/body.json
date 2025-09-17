@@ -12,6 +12,53 @@
 	},
 	"elements": [
 		{
+			"name": "Breasts",
+			"stepParentName": "humans-human-breasts-Breasts-M",
+			"from": [ -0.5, -0.2, -0.4 ],
+			"to": [ -0.5, -0.2, -0.4 ],
+			"uv": [ 0.0, 0.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "BreastR",
+					"from": [ -1.4, 2.2, 0.2 ],
+					"to": [ 0.6, 5.2, 3.2 ],
+					"unwrapMode": 1,
+					"autoUnwrap": false,
+					"uv": [ 1.0, 4.0 ],
+					"rotationOrigin": [ -1.0, 2.0, 0.0 ],
+					"rotationZ": -25.0,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 4.0, 7.0, 6.0, 10.0 ] },
+						"east": { "texture": "#material", "uv": [ 1.0, 7.0, 4.0, 10.0 ] },
+						"south": { "texture": "#material", "uv": [ 7.0, 7.0, 9.0, 10.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#material", "uv": [ 6.0, 7.0, 9.0, 10.0 ] },
+						"up": { "texture": "#material", "uv": [ 4.0, 4.0, 6.0, 7.0 ], "rotation": 180 },
+						"down": { "texture": "#material", "uv": [ 6.0, 10.0, 9.0, 12.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "BreastL",
+					"from": [ -1.4, 2.2, 3.8 ],
+					"to": [ 0.6, 5.2, 6.8 ],
+					"unwrapMode": 1,
+					"autoUnwrap": false,
+					"uv": [ 1.0, 4.0 ],
+					"rotationOrigin": [ -1.0, 2.0, 4.0 ],
+					"rotationZ": -25.0,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 10.0, 7.0, 12.0, 10.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"east": { "texture": "#material", "uv": [ 1.0, 7.0, 4.0, 10.0 ] },
+						"south": { "texture": "#material", "uv": [ 0.0, 7.0, 2.0, 10.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#material", "uv": [ 10.0, 7.0, 13.0, 10.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#material", "uv": [ 4.0, 4.0, 6.0, 7.0 ], "rotation": 180 },
+						"down": { "texture": "#material", "uv": [ 10.0, 10.0, 13.0, 12.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				}
+			]
+		},
+		{
 			"name": "ArmorUpperTorso",
 			"stepParentName": "UpperTorso",
 			"from": [ -0.5, -0.2, -0.4 ],
@@ -26,54 +73,7 @@
 				"up": { "texture": "#material", "uv": [ 0.0, 0.0, 6.0, 7.0 ] },
 				"down": { "texture": "#material", "uv": [ 6.0, 0.0, 12.0, 7.0 ] }
 			},
-			"children": [
-				{
-					"name": "Breasts",
-					"from": [ 0.0, 0.0, 0.0 ],
-					"to": [ 0.0, 0.0, 0.0 ],
-					"uv": [ 0.0, 0.0 ],
-					"faces": {
-					},
-					"children": [
-						{
-							"name": "BreastR",
-							"from": [ -1.4, 2.2, 0.2 ],
-							"to": [ 0.6, 5.2, 3.2 ],
-							"unwrapMode": 1,
-							"autoUnwrap": false,
-							"uv": [ 1.0, 4.0 ],
-							"rotationOrigin": [ -1.0, 2.0, 0.0 ],
-							"rotationZ": -25.0,
-							"faces": {
-								"north": { "texture": "#material", "uv": [ 4.0, 7.0, 6.0, 10.0 ] },
-								"east": { "texture": "#material", "uv": [ 1.0, 7.0, 4.0, 10.0 ] },
-								"south": { "texture": "#material", "uv": [ 7.0, 7.0, 9.0, 10.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"west": { "texture": "#material", "uv": [ 6.0, 7.0, 9.0, 10.0 ] },
-								"up": { "texture": "#material", "uv": [ 4.0, 4.0, 6.0, 7.0 ], "rotation": 180 },
-								"down": { "texture": "#material", "uv": [ 6.0, 10.0, 9.0, 12.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
-							}
-						},
-						{
-							"name": "BreastL",
-							"from": [ -1.4, 2.2, 3.8 ],
-							"to": [ 0.6, 5.2, 6.8 ],
-							"unwrapMode": 1,
-							"autoUnwrap": false,
-							"uv": [ 1.0, 4.0 ],
-							"rotationOrigin": [ -1.0, 2.0, 4.0 ],
-							"rotationZ": -25.0,
-							"faces": {
-								"north": { "texture": "#material", "uv": [ 10.0, 7.0, 12.0, 10.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"east": { "texture": "#material", "uv": [ 1.0, 7.0, 4.0, 10.0 ] },
-								"south": { "texture": "#material", "uv": [ 0.0, 7.0, 2.0, 10.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"west": { "texture": "#material", "uv": [ 10.0, 7.0, 13.0, 10.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-								"up": { "texture": "#material", "uv": [ 4.0, 4.0, 6.0, 7.0 ], "rotation": 180 },
-								"down": { "texture": "#material", "uv": [ 10.0, 10.0, 13.0, 12.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
-							}
-						}
-					]
-				}
-			]
+			"children": []
 		},
 		{
 			"name": "ArmorLowerTorso",

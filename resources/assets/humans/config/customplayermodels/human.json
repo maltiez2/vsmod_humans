@@ -98,7 +98,10 @@
 				"type": "shape",
 				"shapeTemplate": { "base": "humans:breasts/breasts-{code}" },
 				"disableElementsByVariantCode": {
-					"none": ["Breasts"]
+					"none": ["Breasts", "Breasts-S", "Breasts-M", "Breasts-L"],
+					"s": ["Breasts-M", "Breasts-L"],
+					"m": ["Breasts-S", "Breasts-L"],
+					"l": ["Breasts-S", "Breasts-M"]
 				},
 				"variants": [
 					{ "code": "none"},
