@@ -14,11 +14,12 @@
   <!-- Authors -->
   <ItemGroup>
     <ModInfoAuthors Include="Maltiez" />
+    <ModInfoAuthors Include="motifa" />
   </ItemGroup>
 
   <!-- Dependencies -->
   <ItemGroup>
-    <Dependencies Include="playermodellib" Version="1.0.9" />
+    <Dependencies Include="playermodellib" Version="1.0.10" />
   </ItemGroup>
 
   <!-- Project settings -->
