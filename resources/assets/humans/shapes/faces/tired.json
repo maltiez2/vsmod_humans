@@ -1,16 +1,24 @@
 {
 	"editor": {
-		"backDropShape": "entity/humanoid/seraph-faceless",
-		"collapsedPaths": "Root/eyesroot/R eyebrow 1,Root/eyesroot/L eyebrow 1,Root/eyesroot/R eye2",
+		"backDropShape": "E:/Programs/VSModelCreator/seraph-faceless",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
 	"textureWidth": 64,
 	"textureHeight": 64,
 	"textureSizes": {
+		"iris": [4,4],
+		"black": [4,4],
+		"white": [4,4],
+		"lips": [4,4],
+		"hair": [48,48]
 	},
 	"textures": {
-		"seraph": "entity/humanoid/seraph-naked"
+		"hair": "entity/humanoid/seraphskinparts/hair/cordovan",
+		"iris": "eyes/acid-green",
+		"black": "eyes/black",
+		"white": "eyes/white",
+		"lips": "lips/pale-skin1"
 	},
 	"elements": [
 		{
