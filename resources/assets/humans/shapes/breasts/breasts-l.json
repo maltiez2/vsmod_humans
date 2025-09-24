@@ -13,8 +13,8 @@
 	},
 	"elements": [
 		{
-			"name": "Breasts-L",
-			"stepParentName": "UpperTorso",
+			"name": "Breasts-L-root",
+			"stepParentName": "Breasts-L",
 			"from": [ 0.0, 0.0, 0.0 ],
 			"to": [ 0.0, 0.0, 0.0 ],
 			"uv": [ 0.0, 0.0 ],
