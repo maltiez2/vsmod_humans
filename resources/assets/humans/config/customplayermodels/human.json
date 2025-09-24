@@ -3,6 +3,7 @@
     "ShapePath": "humans:human",
     "MainTextureCode": "seraph",
 		"ModelSizeFactor": 0.9,
+		"ExtraTraits": ["frail"],
     "SkinnableParts": [
 			{
 				"code": "baseskin",
