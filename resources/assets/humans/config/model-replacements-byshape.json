@@ -7,16 +7,12 @@
     "game:entity/humanoid/seraph/clothing/upperbodyover/longsleeve-extended": "humans:entity/humanoid/human/clothing/upperbodyover/longsleeve-extended",
     "game:entity/humanoid/seraph/clothing/upperbodyover/longsleeve-hood": "humans:entity/humanoid/human/clothing/upperbodyover/longsleeve-hood",
     "game:entity/humanoid/seraph/clothing/upperbodyover/shortsleeve": "humans:entity/humanoid/human/clothing/upperbodyover/shortsleeve",
-    //"game:entity/humanoid/seraph/clothing/upperbodyover/surgeon-apron": "humans:entity/humanoid/human/clothing/upperbodyover/surgeon-apron",
     "game:entity/humanoid/seraph/clothing/shoulder/noble-fur-collar": "humans:entity/humanoid/human/clothing/shoulder/noble-fur-collar",
     "game:entity/humanoid/seraph/clothing/shoulder/shortsleeve-extended": "humans:entity/humanoid/human/clothing/shoulder/shortsleeve-extended",
     "game:entity/humanoid/seraph/clothing/shoulder/clockmaker-apron": "humans:entity/humanoid/human/clothing/shoulder/clockmaker-apron",
     "game:entity/humanoid/seraph/clothing/shoulder/longsleeve-hood": "humans:entity/humanoid/human/clothing/shoulder/longsleeve-hood",
     "game:entity/humanoid/seraph/clothing/shoulder/longsleeve": "humans:entity/humanoid/human/clothing/shoulder/longsleeve",
     "game:entity/humanoid/seraph/clothing/shoulder/cape-hood": "humans:entity/humanoid/human/clothing/shoulder/cape-hood",
-    "game:entity/humanoid/seraph/clothing/shoulder/shortsleeve": "humans:entity/humanoid/human/clothing/shoulder/shortsleeve",
-    "game:entity/humanoid/seraph/clothing/shoulder/cape": "humans:entity/humanoid/human/clothing/shoulder/cape",
-    "game:entity/humanoid/seraph/clothing/shoulder/blacksmith-apron": "humans:entity/humanoid/human/clothing/shoulder/blacksmith-apron",
     "game:entity/humanoid/seraph/armor/gambeson/body": "humans:entity/humanoid/human/armor/gambeson/body",
     "game:entity/humanoid/seraph/armor/hide/bear/body": "humans:entity/humanoid/human/armor/hide/bear/body"
   }

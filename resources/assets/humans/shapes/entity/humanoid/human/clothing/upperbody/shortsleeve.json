@@ -10,6 +10,7 @@
 		"shirt": [28,44]
 	},
 	"textures": {
+		"shirt": "entity/humanoid/seraphclothes/upperbody/temptress-velvet-shirt"
 	},
 	"elements": [
 		{

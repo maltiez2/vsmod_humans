@@ -10,6 +10,7 @@
 		"coat": [28,44]
 	},
 	"textures": {
+		"coat": "entity/humanoid/seraphclothes/upperbodyover/hunter-coat"
 	},
 	"elements": [
 		{

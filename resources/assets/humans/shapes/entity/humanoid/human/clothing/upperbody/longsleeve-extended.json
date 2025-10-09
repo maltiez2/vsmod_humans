@@ -10,6 +10,7 @@
 		"shirt": [28,64]
 	},
 	"textures": {
+		"shirt": "entity/humanoid/seraphclothes/upperbody/surgeon"
 	},
 	"elements": [
 		{

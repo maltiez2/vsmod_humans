@@ -11,6 +11,7 @@
 		"coat": [28,56]
 	},
 	"textures": {
+		"coat": "entity/humanoid/seraphclothes/upperbodyover/miner"
 	},
 	"elements": [
 		{

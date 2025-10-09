@@ -11,6 +11,7 @@
 		"coat": [28,64]
 	},
 	"textures": {
+		"coat": "entity/humanoid/seraphclothes/upperbodyover/marketeer"
 	},
 	"elements": [
 		{

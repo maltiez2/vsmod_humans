@@ -10,6 +10,7 @@
 		"coat": [28,72]
 	},
 	"textures": {
+		"coat": "entity/humanoid/seraphclothes/upperbodyover/fur-coat"
 	},
 	"elements": [
 		{

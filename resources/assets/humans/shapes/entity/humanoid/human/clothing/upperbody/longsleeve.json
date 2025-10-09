@@ -11,6 +11,7 @@
 		"shirt": [28,56]
 	},
 	"textures": {
+		"shirt": "entity/humanoid/seraphclothes/upperbody/merchant-shirt"
 	},
 	"elements": [
 		{
