@@ -1,19 +1,5 @@
 {
   "humans:human": {
-    "game:armor-body-plate-*": "humans:entity/humanoid/human/armor/plate/body",
-    "game:armor-body-scale-*": "humans:entity/humanoid/human/armor/scale/body",
-    "game:armor-body-padded-*": "humans:entity/humanoid/human/armor/padded/body",
-    "game:armor-body-sewn-leather": "humans:entity/humanoid/human/armor/leather/body",
-    "game:armor-body-lamellar-*": "humans:entity/humanoid/human/armor/lamellar/body",
-    "game:armor-body-jerkin-*": "humans:entity/humanoid/human/armor/jerkin/body",
-    "game:armor-body-improvised-*": "humans:entity/humanoid/human/armor/improvised/body",
-    "game:armor-body-chain-*": "humans:entity/humanoid/human/armor/chain/body",
-    "game:armor-body-brigandine-*": "humans:entity/humanoid/human/armor/brigandine/body",
-    "game:armor-body-antique-blackguard-broken": "humans:entity/humanoid/human/armor/antique/blackguard-broken/body",
-    "game:armor-body-antique-blackguard-damaged": "humans:entity/humanoid/human/armor/antique/blackguard-damaged/body",
-    "game:armor-body-antique-blackguard-pristine": "humans:entity/humanoid/human/armor/antique/blackguard-pristine/body",
-    "game:armor-body-antique-forlorn-broken": "humans:entity/humanoid/human/armor/antique/forlorn-broken/body",
-    "game:armor-body-antique-forlorn-damaged": "humans:entity/humanoid/human/armor/antique/forlorn-damaged/body",
-    "game:armor-body-antique-forlorn-pristine": "humans:entity/humanoid/human/armor/antique/forlorn-pristine/body"
+
   }
 }
