@@ -3,6 +3,7 @@
     "ShapePath": "humans:human",
     "MainTextureCode": "seraph",
 		"ModelSizeFactor": 0.9,
+		"ExtraTraits": [],
     "SkinnableParts": [
 			{
 				"code": "baseskin",
@@ -149,10 +150,10 @@
 					{ "code": "l" }
 				],
 				"disableElementsByVariantCode": {
-					"none": ["Breasts-S", "Breasts-M", "Breasts-L"],
-					"s": ["Breasts-M", "Breasts-L"],
-					"m": ["Breasts-S", "Breasts-L"],
-					"l": ["Breasts-S", "Breasts-M"]
+					"none": ["Breasts-S-clothes", "Breasts-M-clothes", "Breasts-L-clothes", "Breasts-S-armor", "Breasts-M-armor", "Breasts-L-armor"],
+					"s": ["Breasts-M-clothes", "Breasts-L-clothes", "Breasts-M-armor", "Breasts-L-armor"],
+					"m": ["Breasts-S-clothes", "Breasts-L-clothes", "Breasts-S-armor", "Breasts-L-armor"],
+					"l": ["Breasts-S-clothes", "Breasts-M-clothes", "Breasts-S-armor", "Breasts-M-armor"]
 				}
 			},
 			{

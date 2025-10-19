@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>humans</ModName>
     <ModType>content</ModType>
-    <ModVersion>0.0.1</ModVersion>
+    <ModVersion>0.0.2</ModVersion>
     <ModId>humans</ModId>
     <Description></Description>
     <Side>universal</Side>
@@ -19,7 +19,7 @@
 
   <!-- Dependencies -->
   <ItemGroup>
-    <Dependencies Include="playermodellib" Version="1.0.10" />
+    <Dependencies Include="playermodellib" Version="1.1.2" />
   </ItemGroup>
 
   <!-- Project settings -->
