@@ -3,7 +3,9 @@
     "ShapePath": "humans:human",
     "MainTextureCode": "seraph",
 		"ModelSizeFactor": 0.9,
-		"ExtraTraits": [],
+		"ExtraTraits": ["humans-human-stout", "humans-human-naturalforagers"],
+		"AvailableClasses": ["humans-commoner", "humans-traveler-merchant", "humans-traveler-wagabond", "humans-nadian-peasant", "humans-nadian-hunter", "humans-nadian-artisan", "humans-nadian-miner", "humans-nadian-guard", "humans-ancient-knight", "humans-ancient-militia", "humans-ancient-archer", "humans-ancient-crossbowman", "humans-ancient-harquebusier"],
+		"ExclusiveClasses": ["humans-commoner", "humans-traveler-merchant", "humans-traveler-wagabond", "humans-nadian-peasant", "humans-nadian-hunter", "humans-nadian-artisan", "humans-nadian-miner", "humans-nadian-guard", "humans-ancient-knight", "humans-ancient-militia", "humans-ancient-archer", "humans-ancient-crossbowman", "humans-ancient-harquebusier"],
     "SkinnableParts": [
 			{
 				"code": "baseskin",

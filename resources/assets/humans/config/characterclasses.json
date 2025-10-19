@@ -1,0 +1,179 @@
+[
+  {
+		"enabled": true,
+		"code": "humans-commoner",
+		"traits": [],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-commoner-coat" },
+			{ "type": "item", "code": "game:clothes-lowerbody-commoner-trousers" },
+			{ "type": "item", "code": "game:clothes-foot-commoner-boots" },
+			{ "type": "item", "code": "game:clothes-hand-commoner-gloves" }
+		]
+	},
+	{
+		"enabled": true,
+		"code": "humans-traveler-merchant",
+		"traits": ["humans-traveler"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-merchant-hat" },
+			{ "type": "item", "code": "game:clothes-upperbody-merchant-shirt" },
+			{ "type": "item", "code": "game:clothes-lowerbody-merchant-pants" },
+			{ "type": "item", "code": "game:clothes-foot-merchant-shoes" },
+			{ "type": "item", "code": "game:clothes-neck-merchant-amulet" },
+			{ "type": "item", "code": "game:clothes-arm-merchant-bracelet" },
+			{ "type": "item", "code": "game:clothes-waist-merchant-belt" }
+		]
+	},
+	{
+		"enabled": true,
+		"code": "humans-traveler-wagabond",
+		"traits": ["humans-traveler", "humans-selfsustained", "humans-unusedtoarmor"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-shoulder-malefactor-cloak" },
+			{ "type": "item", "code": "game:clothes-upperbody-malefactor-shirt" },
+			{ "type": "item", "code": "game:clothes-lowerbody-malefactor-trousers" },
+			{ "type": "item", "code": "game:clothes-foot-malefactor-boots" },
+			{ "type": "item", "code": "game:clothes-hand-malefactor-gloves" }
+		]
+	},
+	{
+		"enabled": true,
+		"code": "humans-nadian-peasant",
+		"traits": ["humans-nadian"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-nadiya-head-peasantbeige" },
+			{ "type": "item", "code": "game:clothes-nadiya-shoulder-peasant2" },
+			{ "type": "item", "code": "game:clothes-nadiya-upperbody-peasant4" },
+			{ "type": "item", "code": "game:clothes-nadiya-lowerbody-peasant2" },
+			{ "type": "item", "code": "game:clothes-nadiya-foot-peasantwhite" },
+			{ "type": "item", "code": "game:clothes-nadiya-face-grain" },
+			{ "type": "item", "code": "game:clothes-nadiya-arm-bracerswhite" },
+			{ "type": "item", "code": "game:clothes-nadiya-hand-peasant2" }
+		]
+	},
+	{
+		"enabled": true,
+		"code": "humans-nadian-hunter",
+		"traits": ["humans-nadian", "humans-hunter", "humans-archer", "improviser"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-nadiya-head-hunter" },
+			{ "type": "item", "code": "game:clothes-nadiya-shoulder-hunter" },
+			{ "type": "item", "code": "game:clothes-nadiya-upperbody-hunter" },
+			{ "type": "item", "code": "game:clothes-nadiya-lowerbody-hunter" },
+			{ "type": "item", "code": "game:clothes-nadiya-foot-hunter" },
+			{ "type": "item", "code": "game:clothes-nadiya-hand-hunter" },
+			{ "type": "item", "code": "game:clothes-nadiya-waist-hunter" },
+			{ "type": "item", "code": "game:clothes-nadiya-face-hunter" }
+		]
+	},
+	{
+		"enabled": true,
+		"code": "humans-nadian-artisan",
+		"traits": ["humans-nadian", "humans-civil", "humans-artisan", "bowyer", "tinkerer", "technical", "clothier"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-nadiya-shoulder-blacksmith" },
+			{ "type": "item", "code": "game:clothes-nadiya-upperbody-blacksmith" },
+			{ "type": "item", "code": "game:clothes-nadiya-lowerbody-blacksmith" },
+			{ "type": "item", "code": "game:clothes-nadiya-foot-blacksmith" },
+			{ "type": "item", "code": "game:clothes-nadiya-face-blacksmith" },
+			{ "type": "item", "code": "game:clothes-nadiya-hand-blacksmith" }
+		]
+	},
+	{
+		"enabled": true,
+		"code": "humans-nadian-miner",
+		"traits": ["humans-nadian", "humans-civil", "humans-miner", "humans-strong"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-nadiya-head-miner" },
+			{ "type": "item", "code": "game:clothes-nadiya-upperbody-miner" },
+			{ "type": "item", "code": "game:clothes-nadiya-upperbodyover-miner" },
+			{ "type": "item", "code": "game:clothes-nadiya-lowerbody-miner" },
+			{ "type": "item", "code": "game:clothes-nadiya-foot-miner" },
+			{ "type": "item", "code": "game:clothes-nadiya-face-miner" },
+			{ "type": "item", "code": "game:clothes-nadiya-hand-miner" },
+			{ "type": "item", "code": "game:clothes-nadiya-waist-miner" }
+		]
+	},
+	{
+		"enabled": true,
+		"code": "humans-nadian-guard",
+		"traits": ["humans-nadian", "humans-guard", "humans-homester"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-nadiya-head-guard" },
+			{ "type": "item", "code": "game:clothes-nadiya-shoulder-guard" },
+			{ "type": "item", "code": "game:clothes-nadiya-upperbody-guard" },
+			{ "type": "item", "code": "game:clothes-nadiya-lowerbody-guard" },
+			{ "type": "item", "code": "game:clothes-nadiya-foot-guard" },
+			{ "type": "item", "code": "game:clothes-nadiya-arm-guard-bracers" },
+			{ "type": "item", "code": "game:clothes-nadiya-waist-guard" }
+		]
+	},
+	{
+		"enabled": true,
+		"code": "humans-ancient-knight",
+		"traits": ["humans-ancient", "humans-meleefighter", "humans-knight", "humans-nobility"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-squire-hood" },
+			{ "type": "item", "code": "game:clothes-upperbody-messenger-shirt" },
+			{ "type": "item", "code": "game:clothes-lowerbody-squire-pants" },
+			{ "type": "item", "code": "game:clothes-foot-noble-shoes" },
+			{ "type": "item", "code": "game:clothes-noble-riding-gloves" },
+			{ "type": "item", "code": "game:clothes-waist-aristocrat-belt" }
+		]
+	},
+	{
+		"enabled": true,
+		"code": "humans-ancient-militia",
+		"traits": ["humans-ancient", "humans-meleefighter", "humans-soldier"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-shoulder-jord-robe" },
+			{ "type": "item", "code": "game:clothes-upperbody-homespun-shirt" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-warm-robe" },
+			{ "type": "item", "code": "game:clothes-lowerbody-homespun-pants" },
+			{ "type": "item", "code": "game:clothes-foot-soldier-boots" },
+			{ "type": "item", "code": "game:clothes-waist-sturdy-belt" }
+		]
+	},
+	{
+		"enabled": true,
+		"code": "humans-ancient-archer",
+		"traits": ["humans-ancient", "humans-rangedfighter", "humans-soldier"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-hunter-cape" },
+			{ "type": "item", "code": "game:clothes-shoulder-hunter-poncho" },
+			{ "type": "item", "code": "game:clothes-upperbody-homespun-shirt" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-malefactor-tunic" },
+			{ "type": "item", "code": "game:clothes-lowerbody-homespun-pants" },
+			{ "type": "item", "code": "game:clothes-hand-hunter-gloves" },
+			{ "type": "item", "code": "game:clothes-waist-linen-rope" }
+		]
+	},
+	{
+		"enabled": true,
+		"code": "humans-ancient-crossbowman",
+		"traits": ["humans-ancient", "humans-rangedfighter", "humans-soldier"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-bamboo-conehat-large" },
+			{ "type": "item", "code": "game:clothes-shoulder-hunter-poncho" },
+			{ "type": "item", "code": "game:clothes-upperbody-homespun-shirt" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-malefactor-tunic" },
+			{ "type": "item", "code": "game:clothes-lowerbody-homespun-pants" },
+			{ "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" },
+			{ "type": "item", "code": "game:clothes-waist-linen-rope" }
+		]
+	},
+	{
+		"enabled": true,
+		"code": "humans-ancient-harquebusier",
+		"traits": ["humans-ancient", "humans-rangedfighter", "humans-soldier"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-bamboo-conehat" },
+			{ "type": "item", "code": "game:clothes-upperbody-homespun-shirt" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-malefactor-tunic" },
+			{ "type": "item", "code": "game:clothes-lowerbody-homespun-pants" },
+			{ "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" },
+			{ "type": "item", "code": "game:clothes-waist-linen-rope" }
+		]
+	}
+]
