@@ -1,0 +1,36 @@
+﻿[
+  {
+    "enabled": true,
+    "dependsOn": [{ "modid": "maltiezcrossbows" }],
+    "op": "add",
+    "file": "humans:config/customplayermodels/human.json",
+    "path": "/human/ExclusiveClasses/-",
+    "value": "humans-ancient-crossbowman"
+  },
+  {
+    "enabled": true,
+    "dependsOn": [{ "modid": "maltiezcrossbows" }],
+    "op": "add",
+    "file": "humans:config/customplayermodels/human.json",
+    "path": "/human/AvailableClasses/-",
+    "value": "humans-ancient-crossbowman"
+  },
+  { "enabled": true, "dependsOn": [{ "modid": "maltiezcrossbows" }], "op": "add", "file": "humans:config/characterclasses.json", "path": "/11/enabled", "value": true },
+  {
+    "enabled": true,
+    "dependsOn": [{ "modid": "maltiezfirearms" }],
+    "op": "add",
+    "file": "humans:config/customplayermodels/human.json",
+    "path": "/human/ExclusiveClasses/-",
+    "value": "humans-ancient-harquebusier"
+  },
+  {
+    "enabled": true,
+    "dependsOn": [{ "modid": "maltiezfirearms" }],
+    "op": "add",
+    "file": "humans:config/customplayermodels/human.json",
+    "path": "/human/AvailableClasses/-",
+    "value": "humans-ancient-harquebusier"
+  },
+  { "enabled": true, "dependsOn": [{ "modid": "maltiezfirearms" }], "op": "add", "file": "humans:config/characterclasses.json", "path": "/12/enabled", "value": true }
+]

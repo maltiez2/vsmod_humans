@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <!-- Mod info -->
   <PropertyGroup>
-    <ModName>humans</ModName>
+    <ModName>Humans</ModName>
     <ModType>content</ModType>
-    <ModVersion>0.0.2</ModVersion>
+    <ModVersion>0.3.0</ModVersion>
     <ModId>humans</ModId>
     <Description></Description>
     <Side>universal</Side>
@@ -19,7 +19,7 @@
 
   <!-- Dependencies -->
   <ItemGroup>
-    <Dependencies Include="playermodellib" Version="1.1.2" />
+    <Dependencies Include="playermodellib" Version="1.2.1" />
   </ItemGroup>
 
   <!-- Project settings -->
@@ -60,9 +60,6 @@
   </PropertyGroup>
 
   <!-- Project item includes -->
-  <ItemGroup>
-    <Folder Include="resources\assets\humans\textures\" />
-  </ItemGroup>
 
   <!-- Formatting JSON files -->
   <PropertyGroup>

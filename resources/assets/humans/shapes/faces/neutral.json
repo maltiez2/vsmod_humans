@@ -14,7 +14,7 @@
 		"hair": [48,48]
 	},
 	"textures": {
-		"hair": "entity/humanoid/seraphskinparts/hair/cordovan",
+		"hair": "game:entity/humanoid/seraphskinparts/hair/cordovan",
 		"iris": "eyes/acid-green",
 		"black": "eyes/black",
 		"white": "eyes/white",

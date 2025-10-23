@@ -1,15 +1,14 @@
 {
-  "human": {
+	"ancestor": {
 		"Enabled": true,
 		"Group": "humans",
-		"Icon": "humans:icons/human",
-		"GroupIcon": "humans:icons/humans",
+		"Icon": "humans:icons/placeholder",
     "ShapePath": "humans:human",
     "MainTextureCode": "seraph",
 		"ModelSizeFactor": 0.9,
-		"ExtraTraits": ["humans-human-stout", "humans-human-naturalforagers", "improviser"],
-		"AvailableClasses": ["humans-human-commoner", "humans-human-hunter", "humans-human-gatherer"],
-		"ExclusiveClasses": ["humans-human-commoner", "humans-human-hunter", "humans-human-gatherer"],
+		"ExtraTraits": ["humans-human-stout", "humans-ancient"],
+		"AvailableClasses": ["humans-ancient-commoner","humans-ancient-peasant", "humans-ancient-knight", "humans-ancient-militia", "humans-ancient-archer"],
+		"ExclusiveClasses": ["humans-ancient-commoner","humans-ancient-peasant", "humans-ancient-knight", "humans-ancient-militia", "humans-ancient-archer"],
     "SkipClasses": [],
 		"SizeRange": [0.9, 1.1],
     "MaxCollisionBox": [0.80, 1.99],
@@ -26,7 +25,6 @@
 				"targetSkinParts": ["base", "breasts"],
 				"overlayTexture": false,
 				"variants": [
-					{ "code": "skin1", "texture": "humans:skin/skin1" },
 					{ "code": "skin2", "texture": "humans:skin/skin2" },
 					{ "code": "skin3", "texture": "humans:skin/skin3" },
 					{ "code": "skin4", "texture": "humans:skin/skin4" },
@@ -36,16 +34,7 @@
 					{ "code": "skin8", "texture": "humans:skin/skin8" },
 					{ "code": "skin9", "texture": "humans:skin/skin9" },
 					{ "code": "skin10", "texture": "humans:skin/skin10" },
-					{ "code": "skin11", "texture": "humans:skin/skin11" },
-					{ "code": "skin12", "texture": "humans:skin/skin12" },
-					{ "code": "skin13", "texture": "humans:skin/skin13" },
-					{ "code": "skin14", "texture": "humans:skin/skin14" },
-					{ "code": "skin15", "texture": "humans:skin/skin15" },
-					{ "code": "skin16", "texture": "humans:skin/skin16" },
-					{ "code": "skin17", "texture": "humans:skin/skin17" },
-					{ "code": "skin18", "texture": "humans:skin/skin18" },
-					{ "code": "skin19", "texture": "humans:skin/skin19" },
-					{ "code": "skin20", "texture": "humans:skin/skin20" }
+					{ "code": "skin11", "texture": "humans:skin/skin11" }
 				]
 			},
 			{
@@ -94,12 +83,6 @@
 					{ "code": "pale-skin12", "texture": "humans:lips/pale-skin12" },
 					{ "code": "pink-skin12", "texture": "humans:lips/pink-skin12" },
 					{ "code": "red-skin12", "texture": "humans:lips/red-skin12" },
-					{ "code": "pale-skin16", "texture": "humans:lips/pale-skin16" },
-					{ "code": "pink-skin16", "texture": "humans:lips/pink-skin16" },
-					{ "code": "red-skin16", "texture": "humans:lips/red-skin16" },
-					{ "code": "pale-skin20", "texture": "humans:lips/pale-skin20" },
-					{ "code": "pink-skin20", "texture": "humans:lips/pink-skin20" },
-					{ "code": "red-skin20", "texture": "humans:lips/red-skin20" }
 				]
 			},
 			{ 
@@ -155,12 +138,10 @@
 				"targetSkinParts": ["base", "breasts"],
 				"overlayTexture": true,
 				"overlayMode": "normal",
-				"textureTemplate": "humans:underwear/{code}",
 				"variants": [
-					{ "code": "hide-breeches" },
-					{ "code": "hide-leotard" },
-					{ "code": "hide-twopiece" },
-					{ "code": "hide-wrap" }
+					{ "code": "twopiece", "texture": "humans:underwear/twopiece" },
+					{ "code": "leotard", "texture": "humans:underwear/leotard" },
+					{ "code": "breeches", "texture": "humans:underwear/breeches" }
 				]
 			},
 			{

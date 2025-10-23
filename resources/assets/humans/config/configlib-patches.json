@@ -1,0 +1,207 @@
+{
+  "version": 1,
+  "patches": {
+    "other": {
+      "@humans:config/customplayermodels/*.json": {
+        "@@*/ExtraTraits": "(remove_models_traits) ? empty_array : value",
+        "@@*/AvailableClasses": "(disable_exclusive_model_classes) ? empty_array : value",
+        "@@*/SkipClasses": "(disable_exclusive_model_classes) ? skip_classes : value"
+      }
+    },
+    "number": {
+      "@humans:config/customplayermodels/*.json": {
+        "@@*/SizeRange/0": "human_min_size_range",
+        "@@*/SizeRange/1": "human_max_size_range",
+        "@@*/ModelSizeFactor": "human_size_factor",
+        "@@*/MaxCollisionBox/0": "human_max_collision_box_horizontal",
+        "@@*/MaxCollisionBox/1": "human_max_collision_box_vetrical",
+        "@@*/MaxEyeHeight": "human_max_eye_height",
+        "@@*/MinEyeHeight": "human_min_eye_height"
+      }
+    },
+    "boolean": {
+      "humans:config/customplayermodels/cosmetic.json": {
+        "@@*/ScaleColliderWithSizeHorizontally": "human_scale_collider_horizontally",
+        "@@*/ScaleColliderWithSizeVertically": "human_scale_collider_vertically",
+        "@@*/Enabled": "and(not(disable_all_human_models), enable_cosmetic_model)"
+      },
+      "humans:config/customplayermodels/human.json": {
+        "@@*/ScaleColliderWithSizeHorizontally": "human_scale_collider_horizontally",
+        "@@*/ScaleColliderWithSizeVertically": "human_scale_collider_vertically",
+        "@@*/Enabled": "and(not(disable_all_human_models), enable_human_model)"
+      },
+      "humans:config/customplayermodels/nomad.json": {
+        "@@*/ScaleColliderWithSizeHorizontally": "human_scale_collider_horizontally",
+        "@@*/ScaleColliderWithSizeVertically": "human_scale_collider_vertically",
+        "@@*/Enabled": "and(not(disable_all_human_models), enable_nomad_model)"
+      },
+      "humans:config/customplayermodels/nadiyan.json": {
+        "@@*/ScaleColliderWithSizeHorizontally": "human_scale_collider_horizontally",
+        "@@*/ScaleColliderWithSizeVertically": "human_scale_collider_vertically",
+        "@@*/Enabled": "and(not(disable_all_human_models), enable_nadiyan_model)"
+      },
+      "humans:config/customplayermodels/ancestor.json": {
+        "@@*/ScaleColliderWithSizeHorizontally": "human_scale_collider_horizontally",
+        "@@*/ScaleColliderWithSizeVertically": "human_scale_collider_vertically",
+        "@@*/Enabled": "and(not(disable_all_human_models), enable_ancestor_model)"
+      }
+    }
+  },
+  "constants": {
+    "empty_array": [],
+    "skip_classes": ["humans-ancient-commoner","humans-ancient-peasant", "humans-ancient-knight", "humans-ancient-militia", "humans-ancient-archer", "humans-human-commoner", "humans-human-hunter", "humans-human-gatherer", "humans-nadiyan-peasant", "humans-nadiyan-hunter", "humans-nadiyan-artisan", "humans-nadiyan-miner", "humans-nadiyan-guard", "humans-traveler-merchant", "humans-traveler-vagabond"]
+  },
+  "settings": [
+    {
+      "type": "separator",
+      "title": "humans:setting-title-models",
+      "collapsible": false
+    },
+    {
+      "code": "disable_all_human_models",
+      "type": "boolean",
+      "ingui": "humans:setting-disable_all_human_models",
+      "default": false
+    },
+    {
+      "code": "enable_cosmetic_model",
+      "type": "boolean",
+      "ingui": "humans:setting-enable_cosmetic_model",
+      "default": false
+    },
+    {
+      "code": "enable_human_model",
+      "type": "boolean",
+      "ingui": "humans:setting-enable_human_model",
+      "default": true
+    },
+    {
+      "code": "enable_nomad_model",
+      "type": "boolean",
+      "ingui": "humans:setting-enable_nomad_model",
+      "default": true
+    },
+    {
+      "code": "enable_nadiyan_model",
+      "type": "boolean",
+      "ingui": "humans:setting-enable_nadiyan_model",
+      "default": true
+    },
+    {
+      "code": "enable_ancestor_model",
+      "type": "boolean",
+      "ingui": "humans:setting-enable_ancestor_model",
+      "default": true
+    },
+    {
+      "type": "separator",
+      "title": "humans:setting-title-classesandtraits",
+      "collapsible": false
+    },
+    {
+      "code": "remove_models_traits",
+      "type": "boolean",
+      "ingui": "humans:setting-remove_models_traits",
+      "default": false
+    },
+    {
+      "code": "disable_exclusive_model_classes",
+      "type": "boolean",
+      "ingui": "humans:setting-disable_exclusive_model_classes",
+      "default": false
+    },
+    {
+      "type": "separator",
+      "title": "humans:setting-title-sizes",
+      "collapsible": false
+    },
+    {
+      "code": "human_min_size_range",
+      "type": "float",
+      "ingui": "humans:setting-human_min_size_range",
+      "comment": "humans:setting-comment-human_min_size_range",
+      "default": 0.9,
+      "range": {
+        "min": 0.1,
+        "max": 1.0
+      }
+    },
+    {
+      "code": "human_max_size_range",
+      "type": "float",
+      "ingui": "humans:setting-human_max_size_range",
+      "comment": "humans:setting-comment-human_max_size_range",
+      "default": 1.1,
+      "range": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    },
+    {
+      "code": "human_size_factor",
+      "type": "float",
+      "ingui": "humans:setting-human_size_factor",
+      "comment": "humans:setting-comment-human_size_factor",
+      "default": 0.9,
+      "range": {
+        "min": 0.1,
+        "max": 3.0
+      }
+    },
+    {
+      "code": "human_max_collision_box_vetrical",
+      "type": "float",
+      "ingui": "humans:setting-human_max_collision_box_vetrical",
+      "comment": "humans:setting-comment-human_max_collision_box_vetrical",
+      "default": 1.99,
+      "range": {
+        "min": 0.1,
+        "max": 10.0
+      }
+    },
+    {
+      "code": "human_max_collision_box_horizontal",
+      "type": "float",
+      "ingui": "humans:setting-human_max_collision_box_horizontal",
+      "comment": "humans:setting-comment-human_max_collision_box_horizontal",
+      "default": 0.80,
+      "range": {
+        "min": 0.1,
+        "max": 10.0
+      }
+    },
+    {
+      "code": "human_max_eye_height",
+      "type": "float",
+      "ingui": "humans:setting-human_max_eye_height",
+      "comment": "humans:setting-comment-human_max_eye_height",
+      "default": 1.95,
+      "range": {
+        "min": 0.1,
+        "max": 10.0
+      }
+    },
+    {
+      "code": "human_min_eye_height",
+      "type": "float",
+      "ingui": "humans:setting-human_min_eye_height",
+      "default": 0.1,
+      "range": {
+        "min": 0.1,
+        "max": 10.0
+      }
+    },
+    {
+      "code": "human_scale_collider_horizontally",
+      "type": "boolean",
+      "ingui": "humans:setting-human_scale_collider_horizontally",
+      "default": true
+    },
+    {
+      "code": "human_scale_collider_vertically",
+      "type": "boolean",
+      "ingui": "humans:setting-human_scale_collider_vertically",
+      "default": true
+    }
+  ]
+}

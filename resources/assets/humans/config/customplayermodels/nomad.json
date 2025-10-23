@@ -1,15 +1,14 @@
 {
-  "human": {
+	"nomad": {
 		"Enabled": true,
 		"Group": "humans",
-		"Icon": "humans:icons/human",
-		"GroupIcon": "humans:icons/humans",
+		"Icon": "humans:icons/placeholder",
     "ShapePath": "humans:human",
     "MainTextureCode": "seraph",
 		"ModelSizeFactor": 0.9,
-		"ExtraTraits": ["humans-human-stout", "humans-human-naturalforagers", "improviser"],
-		"AvailableClasses": ["humans-human-commoner", "humans-human-hunter", "humans-human-gatherer"],
-		"ExclusiveClasses": ["humans-human-commoner", "humans-human-hunter", "humans-human-gatherer"],
+		"ExtraTraits": ["humans-human-stout", "humans-traveler"],
+		"AvailableClasses": ["humans-traveler-merchant", "humans-traveler-vagabond"],
+		"ExclusiveClasses": ["humans-traveler-merchant", "humans-traveler-vagabond"],
     "SkipClasses": [],
 		"SizeRange": [0.9, 1.1],
     "MaxCollisionBox": [0.80, 1.99],
@@ -157,10 +156,14 @@
 				"overlayMode": "normal",
 				"textureTemplate": "humans:underwear/{code}",
 				"variants": [
-					{ "code": "hide-breeches" },
-					{ "code": "hide-leotard" },
-					{ "code": "hide-twopiece" },
-					{ "code": "hide-wrap" }
+					{ "code": "breeches" },
+					{ "code": "leotard" },
+					{ "code": "twopiece" },
+					{ "code": "wrap" },
+					{ "code": "rags-breeches" },
+					{ "code": "rags-leotard" },
+					{ "code": "rags-twopiece" },
+					{ "code": "rags-wrap" }
 				]
 			},
 			{

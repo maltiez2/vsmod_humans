@@ -1,15 +1,14 @@
 {
-  "human": {
-		"Enabled": true,
+  "human-cosmetic": {
+		"Enabled": false,
 		"Group": "humans",
-		"Icon": "humans:icons/human",
-		"GroupIcon": "humans:icons/humans",
+		"Icon": "humans:icons/placeholder",
     "ShapePath": "humans:human",
     "MainTextureCode": "seraph",
 		"ModelSizeFactor": 0.9,
-		"ExtraTraits": ["humans-human-stout", "humans-human-naturalforagers", "improviser"],
-		"AvailableClasses": ["humans-human-commoner", "humans-human-hunter", "humans-human-gatherer"],
-		"ExclusiveClasses": ["humans-human-commoner", "humans-human-hunter", "humans-human-gatherer"],
+		"ExtraTraits": [],
+		"AvailableClasses": [],
+		"ExclusiveClasses": [],
     "SkipClasses": [],
 		"SizeRange": [0.9, 1.1],
     "MaxCollisionBox": [0.80, 1.99],
@@ -59,20 +58,39 @@
 					{ "code": "amethyst", "texture": "humans:eyes/amethyst" },
 					{ "code": "aquamarine", "texture": "humans:eyes/aquamarine" },
 					{ "code": "azure", "texture": "humans:eyes/azure" },
+					{ "code": "bismuth", "texture": "humans:eyes/bismuth" },
 					{ "code": "bitter-lemon", "texture": "humans:eyes/bitter-lemon" },
+					{ "code": "black", "texture": "humans:eyes/black" },
 					{ "code": "blackopal", "texture": "humans:eyes/blackopal" },
+					{ "code": "blight", "texture": "humans:eyes/blight" },
 					{ "code": "cadmium-orange", "texture": "humans:eyes/cadmium-orange" },
 					{ "code": "citrine", "texture": "humans:eyes/citrine" },
+					{ "code": "citron", "texture": "humans:eyes/citron" },
+					{ "code": "corundum", "texture": "humans:eyes/corundum" },
 					{ "code": "dark-green", "texture": "humans:eyes/dark-green" },
+					{ "code": "diamond", "texture": "humans:eyes/diamond" },
 					{ "code": "forest-green", "texture": "humans:eyes/forest-green" },
 					{ "code": "goldenrod", "texture": "humans:eyes/goldenrod" },
 					{ "code": "jade", "texture": "humans:eyes/jade" },
+					{ "code": "jonas", "texture": "humans:eyes/jonas" },
 					{ "code": "lavander", "texture": "humans:eyes/lavander" },
 					{ "code": "malachite", "texture": "humans:eyes/malachite" },
 					{ "code": "mantis", "texture": "humans:eyes/mantis" },
+					{ "code": "midnight", "texture": "humans:eyes/midnight" },
+					{ "code": "onyx", "texture": "humans:eyes/onyx" },
+					{ "code": "opal", "texture": "humans:eyes/opal" },
+					{ "code": "pearlpink", "texture": "humans:eyes/pearlpink" },
+					{ "code": "phthalo-blue", "texture": "humans:eyes/phthalo-blue" },
+					{ "code": "purple", "texture": "humans:eyes/purple" },
+					{ "code": "quartzrose", "texture": "humans:eyes/quartzrose" },
+					{ "code": "rot", "texture": "humans:eyes/rot" },
+					{ "code": "ruby", "texture": "humans:eyes/ruby" },
 					{ "code": "sand", "texture": "humans:eyes/sand" },
 					{ "code": "sapphire", "texture": "humans:eyes/sapphire" },
-					{ "code": "smokyquartz", "texture": "humans:eyes/smokyquartz" }
+					{ "code": "smokyquartz", "texture": "humans:eyes/smokyquartz" },
+					{ "code": "topaz", "texture": "humans:eyes/topaz" },
+					{ "code": "tourmaline", "texture": "humans:eyes/tourmaline" },
+					{ "code": "white", "texture": "humans:eyes/white" }
 				]
 			},
 			{
@@ -114,7 +132,11 @@
 					{ "code": "silverchalice" },
 					{ "code": "slategray" },
 					{ "code": "eerieblack" },
+					{ "code": "mossgreen" },
+					{ "code": "seagreen" },
 					{ "code": "wintergreendream" },
+					{ "code": "steelblue" },
+					{ "code": "queenblue" },
 					{ "code": "indigodye" },
 					{ "code": "heliotropegray" },
 					{ "code": "palatinatepurple" },
@@ -127,7 +149,11 @@
 					{ "code": "rosewood" },
 					{ "code": "russet" },
 					{ "code": "liver" },
-					{ "code": "oldburgundy" }
+					{ "code": "oldburgundy" },
+					{ "code": "rust1" },
+					{ "code": "rust2" },
+					{ "code": "rust3" },
+					{ "code": "rust4" }
 				]
 			},
 			{
@@ -157,10 +183,18 @@
 				"overlayMode": "normal",
 				"textureTemplate": "humans:underwear/{code}",
 				"variants": [
+					{ "code": "breeches" },
+					{ "code": "leotard" },
+					{ "code": "twopiece" },
+					{ "code": "wrap" },
 					{ "code": "hide-breeches" },
 					{ "code": "hide-leotard" },
 					{ "code": "hide-twopiece" },
-					{ "code": "hide-wrap" }
+					{ "code": "hide-wrap" },
+					{ "code": "rags-breeches" },
+					{ "code": "rags-leotard" },
+					{ "code": "rags-twopiece" },
+					{ "code": "rags-wrap" }
 				]
 			},
 			{

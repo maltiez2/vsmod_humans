@@ -1,0 +1,20 @@
+﻿[
+  { "enabled": true, "dependsOn": [{ "modid": "combatoverhaul" }], "op": "remove", "file": "humans:config/traits.json", "path": "/8/attributes/rangedWeaponsDamage" },
+  { "enabled": true, "dependsOn": [{ "modid": "combatoverhaul" }], "op": "remove", "file": "humans:config/traits.json", "path": "/8/attributes/rangedWeaponsAcc" },
+  { "enabled": true, "dependsOn": [{ "modid": "combatoverhaul" }], "op": "remove", "file": "humans:config/traits.json", "path": "/8/attributes/bowDrawingStrength" },
+  { "enabled": true, "dependsOn": [{ "modid": "combatoverhaul" }], "op": "remove", "file": "humans:config/traits.json", "path": "/9/attributes/rangedWeaponsDamage" },
+  { "enabled": true, "dependsOn": [{ "modid": "combatoverhaul" }], "op": "remove", "file": "humans:config/traits.json", "path": "/9/attributes/rangedWeaponsAcc" },
+  { "enabled": true, "dependsOn": [{ "modid": "combatoverhaul" }], "op": "remove", "file": "humans:config/traits.json", "path": "/9/attributes/bowDrawingStrength" },
+  { "enabled": true, "dependsOn": [{ "modid": "combatoverhaul" }], "op": "remove", "file": "humans:config/traits.json", "path": "/13/attributes/rangedWeaponsDamage" },
+  { "enabled": true, "dependsOn": [{ "modid": "combatoverhaul" }], "op": "remove", "file": "humans:config/traits.json", "path": "/13/attributes/rangedWeaponsAcc" },
+  { "enabled": true, "dependsOn": [{ "modid": "combatoverhaul" }], "op": "remove", "file": "humans:config/traits.json", "path": "/13/attributes/bowDrawingStrength" },
+  { "enabled": true, "dependsOn": [{ "modid": "combatoverhaul" }], "op": "remove", "file": "humans:config/traits.json", "path": "/15/attributes/rangedWeaponsDamage" },
+  { "enabled": true, "dependsOn": [{ "modid": "combatoverhaul" }], "op": "remove", "file": "humans:config/traits.json", "path": "/15/attributes/bowDrawingStrength" },
+  { "enabled": true, "dependsOn": [{ "modid": "combatoverhaul" }], "op": "remove", "file": "humans:config/traits.json", "path": "/15/attributes/rangedWeaponsAcc" },
+  { "enabled": true, "dependsOn": [{ "modid": "combatoverhaul" }], "op": "remove", "file": "humans:config/traits.json", "path": "/16/attributes/rangedWeaponsDamage" },
+  { "enabled": true, "dependsOn": [{ "modid": "combatoverhaul" }], "op": "remove", "file": "humans:config/traits.json", "path": "/16/attributes/bowDrawingStrength" },
+  { "enabled": true, "dependsOn": [{ "modid": "combatoverhaul" }], "op": "remove", "file": "humans:config/traits.json", "path": "/16/attributes/rangedWeaponsAcc" },
+  { "enabled": true, "dependsOn": [{ "modid": "combatoverhaul" }], "op": "add", "file": "humans:config/traits.json", "path": "/9/attributes/steadyAim", "value": "-0.3" },
+  { "enabled": true, "dependsOn": [{ "modid": "combatoverhaul" }], "op": "add", "file": "humans:config/traits.json", "path": "/15/attributes/steadyAim", "value": "-0.3" },
+  { "enabled": true, "dependsOn": [{ "modid": "combatoverhaul" }], "op": "add", "file": "humans:config/traits.json", "path": "/16/attributes/steadyAim", "value": "0.5" }
+]
