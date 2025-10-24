@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>Humans</ModName>
     <ModType>content</ModType>
-    <ModVersion>0.3.0</ModVersion>
+    <ModVersion>0.3.2</ModVersion>
     <ModId>humans</ModId>
     <Description></Description>
     <Side>universal</Side>

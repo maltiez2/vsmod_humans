@@ -2,7 +2,7 @@
 	"nomad": {
 		"Enabled": true,
 		"Group": "humans",
-		"Icon": "humans:icons/placeholder",
+		"Icon": "humans:icons/nomad",
     "ShapePath": "humans:human",
     "MainTextureCode": "seraph",
 		"ModelSizeFactor": 0.9,

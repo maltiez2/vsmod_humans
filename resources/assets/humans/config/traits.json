@@ -23,7 +23,7 @@
 		"type": "mixed",
 		"attributes": {
 			"walkspeed": 0.3,
-			"armorWalkSpeedAffectedness": 0.3
+			"armorWalkSpeedAffectedness": 1.2
 		}
 	},
 	{
@@ -58,8 +58,7 @@
 		"type": "negative",
 		"attributes": {
 			"armorDurabilityLoss": 0.3,
-			"armorWalkSpeedAffectedness": 0.3,
-			"meleeWeaponsDamage": -0.3
+			"armorWalkSpeedAffectedness": 0.6
 		}
 	},
 	{
@@ -80,7 +79,7 @@
 			"bowDrawingStrength": 0.15,
 			"meleeWeaponsDamage": -0.3,
 			"armorDurabilityLoss": 0.3,
-			"armorWalkSpeedAffectedness": 0.3
+			"armorWalkSpeedAffectedness": 0.6
 		}
 	},
 	{
@@ -99,7 +98,7 @@
 			"rangedWeaponsDamage": -0.3,
 			"meleeWeaponsDamage": -0.3,
 			"armorDurabilityLoss": 0.3,
-			"armorWalkSpeedAffectedness": 0.3,
+			"armorWalkSpeedAffectedness": 0.6,
 			"bowDrawingStrength": -0.15,
 			"rangedWeaponsAcc": -0.15
 		}
@@ -132,7 +131,7 @@
 		"attributes": {
 			"meleeWeaponsDamage": 0.1,
 			"armorDurabilityLoss": -0.1,
-			"armorWalkSpeedAffectedness": -0.1,
+			"armorWalkSpeedAffectedness": -0.4,
 			"rangedWeaponsDamage": 0.1,
 			"rangedWeaponsAcc": 0.1,
 			"bowDrawingStrength": 0.1
@@ -175,7 +174,7 @@
 		"attributes": {
 			"meleeWeaponsDamage": 0.2,
 			"armorDurabilityLoss": -0.6,
-			"armorWalkSpeedAffectedness": -0.6
+			"armorWalkSpeedAffectedness": -0.8
 		}
 	},
 	{
@@ -186,7 +185,7 @@
 			"animalHarvestingTime": 0.3,
 			"animalSeekingRange": 0.3,
 			"armorDurabilityLoss": -0.3,
-			"armorWalkSpeedAffectedness": -0.3
+			"armorWalkSpeedAffectedness": -0.6
 		}
 	},
 	{

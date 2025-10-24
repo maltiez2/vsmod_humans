@@ -2,7 +2,7 @@
   "human-cosmetic": {
 		"Enabled": false,
 		"Group": "humans",
-		"Icon": "humans:icons/placeholder",
+		"Icon": "humans:icons/cosmetic",
     "ShapePath": "humans:human",
     "MainTextureCode": "seraph",
 		"ModelSizeFactor": 0.9,
