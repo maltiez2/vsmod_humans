@@ -1,5 +1,5 @@
 {
-  "humans:human": {
+  "humans:human|humans:ancestor|humans:human-cosmetic|humans:nadiyan|humans:nomad": {
     "game:entity/humanoid/seraph/clothing/upperbody/shortsleeve": "humans:clothing/upperbody/shortsleeve",
     "game:entity/humanoid/seraph/clothing/upperbody/longsleeve": "humans:clothing/upperbody/longsleeve",
     "game:entity/humanoid/seraph/clothing/upperbody/longsleeve-extended": "humans:clothing/upperbody/longsleeve-extended",
@@ -12,24 +12,6 @@
     "game:entity/humanoid/seraph/clothing/shoulder/clockmaker-apron": "humans:clothing/shoulder/clockmaker-apron",
     "game:entity/humanoid/seraph/clothing/shoulder/longsleeve-hood": "humans:clothing/shoulder/longsleeve-hood",
     "game:entity/humanoid/seraph/clothing/shoulder/longsleeve": "humans:clothing/shoulder/longsleeve",
-    "game:entity/humanoid/seraph/clothing/shoulder/cape-hood": "humans:clothing/shoulder/cape-hood",
-    "game:entity/humanoid/seraph/armor/gambeson/body": "humans:armor/gambeson-body",
-    "game:entity/humanoid/seraph/armor/brigandine/body": "humans:armor/brigandine-body",
-    "game:entity/humanoid/seraph/armor/chain/body": "humans:armor/chain-body",
-    "game:entity/humanoid/seraph/armor/improvised/body": "humans:armor/improvised-body",
-    "game:entity/humanoid/seraph/armor/improvised/body-full": "humans:armor/improvised-body-full",
-    "game:entity/humanoid/seraph/armor/jerkin/body": "humans:armor/jerkin-body",
-    "game:entity/humanoid/seraph/armor/lamellar/body": "humans:armor/lamellar-body",
-    "game:entity/humanoid/seraph/armor/leather/body": "humans:armor/leather-body",
-    "game:entity/humanoid/seraph/armor/padded/body": "humans:armor/padded-body",
-    "game:entity/humanoid/seraph/armor/plate/body": "humans:armor/plate-body",
-    "game:entity/humanoid/seraph/armor/scale/body": "humans:armor/scale-body",
-    "game:entity/humanoid/seraph/armor/hide/bear/body": "humans:armor/hide-bear-body",
-    "game:entity/humanoid/seraph/armor/antique/blackguard-broken/body": "humans:armor/antique-blackguard-broken-body",
-    "game:entity/humanoid/seraph/armor/antique/blackguard-damaged/body": "humans:armor/antique-blackguard-damaged-scale-body",
-    "game:entity/humanoid/seraph/armor/antique/blackguard-pristine/body": "humans:armor/antique-blackguard-pristine-scale-body",
-    "game:entity/humanoid/seraph/armor/antique/forlorn-broken/body": "humans:armor/antique-forlorn-broken-body",
-    "game:entity/humanoid/seraph/armor/antique/forlorn-damaged/body": "humans:armor/antique-forlorn-damaged-body",
-    "game:entity/humanoid/seraph/armor/antique/forlorn-pristine/body": "humans:armor/antique-forlorn-pristine-body"
+    "game:entity/humanoid/seraph/clothing/shoulder/cape-hood": "humans:clothing/shoulder/cape-hood"
   }
 }

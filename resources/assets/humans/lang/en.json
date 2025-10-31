@@ -10,7 +10,7 @@
   "modeldesc-human-cosmetic": "<font color=\"#99c9f9\"><i>Just a human, nothing special about you.</i></font><br/><br/>No gameplay effects besides 90% of seraph height. Can choose all vanilla and modded classes. All customization options are available.",
   "modeldesc-human": "<font color=\"#99c9f9\"><i>It is the dawn of humanity, there are no signs of future Disaster, but live is still harsh, you have to fight for survival against predators, hunger and winter.</i></font><br/><br/>Early humans before any civilization is formed. Meant for 'Homo sapiens' playthroughs.",
   "modeldesc-nadiyan": "<font color=\"#99c9f9\"><i>Almost extinct after the disaster. Some humans still survive in very rare, small fortified enclaves. You are from one of such enclaves. Travel is dangerous, and only walls protect you from horrors outside. You ended up far away from your home, will you be able to survive horrors that await you in the night?</i></font><br/><br/>Human from a small village community. Used to live near the village. Not used to long trips. Descendants of survivors of the disaster.",
-  "modeldesc-nomad": "<font color=\"#99c9f9\"><i>Almost extinct after the disaster. Some humans survived as nomads, constantly traveling. Some turned into vagabonds hiding in constant fear. Some travel in reinforced carriages between fortified enclaves and trading with them and between each other. Losing the carriage usually means death, and you dont have your own.</i></font><br/><br/>Traveling people. Traders you meet in game are from nomads. Used to long trips, but unused to combat and wearing armor.",
+  "modeldesc-nomad": "<font color=\"#99c9f9\"><i>Almost extinct after the disaster. Some humans survived as nomads, constantly traveling. They turned into vagabonds hiding in constant fear or into traders traveling in reinforced carriages between fortified enclaves.</i></font><br/><br/>Traveling people. Traders you meet in game are from nomads. Used to long trips, but unused to combat and wearing armor.",
   "modeldesc-ancestor": "<font color=\"#99c9f9\"><i>Strange disease is ravaging crops and people. Humanity dwindles as you struggle to survive. There are rumors of a possible salvation that some of the new inventions will bring, but you somehow feel that it will be your doom.</i></font><br/><br/>People from before the disaster and from the general area of events that triggered said disaster. Used to prosperous life. More healthy and used to good meal.",
 
   "game:skinpart-lipscolor": "Lips color",
@@ -173,10 +173,10 @@
   "game:characterclass-humans-human-gatherer": "Gatherer",
 
   "game:characterdesc-humans-commoner": "<font color=\"#99c9f9\"><i>Nothing special about you. You are the most average human.</i></font>",
-  "game:characterdesc-humans-traveler-merchant": "<font color=\"#99c9f9\"><i>You used to travel in your carriage and trade with villages and other merchants. But you lost your carrige. You don't know if you will be able to survive the next night.</i></font>",
+  "game:characterdesc-humans-traveler-merchant": "<font color=\"#99c9f9\"><i>You used to travel in your carriage and trade with villages and other merchants. Losing the carriage usually means death, and you just lost yours. You don't know if you will be able to survive the next night.</i></font>",
   "game:characterdesc-humans-traveler-vagabond": "<font color=\"#99c9f9\"><i>You are a vagabond, used to travel light and unhindered by armor, sustaining on what you can find on the way, hiding and avoiding any combat.</i></font>",
   "game:characterdesc-humans-nadiyan-peasant": "<font color=\"#99c9f9\"><i>During day you work on fields surrounding village, during night you shleter behind wooden walls.</i></font>",
-  "game:characterdesc-humans-nadiyan-hunter": "<font color=\"#99c9f9\"><i>You perform raids for meat and hides, hunting wildlife surrounding the village. You are used to traveling light and carry only necessary supplied. But if you can return in time before night, you hide and pray that it will be a quiet night and not rifts will appear around.</i></font>",
+  "game:characterdesc-humans-nadiyan-hunter": "<font color=\"#99c9f9\"><i>You perform raids for meat and hides, hunting wildlife surrounding the village. You are used to traveling light and carry only necessary supplies. But if you can return in time before night, you hide and pray that it will be a quiet night and not rifts will appear around.</i></font>",
   "game:characterdesc-humans-nadiyan-artisan": "<font color=\"#99c9f9\"><i>You worked as smith and as tailor, you can make and repair almost everything. Though, you never left your village walls, until recently. And you should not have left, how will you survive the horrors of night so far long from the safety of village walls.</i></font>",
   "game:characterdesc-humans-nadiyan-miner": "<font color=\"#99c9f9\"><i>Hard work in mines built up your strength. Village needs iron and bronze to survive. And you need village walls, but they are far away now, what will you do?</i></font>",
   "game:characterdesc-humans-nadiyan-guard": "<font color=\"#99c9f9\"><i>Help around during day, patrol walls during night. You trained with spears and know how to use a bow, but walls are what do the most for protection of the village.</i></font>",
@@ -280,6 +280,7 @@
   "game:charattribute-wildCropDropRate--0.6": "-60% wild crop drop rate",
   "game:charattribute-wildCropDropRate-0.1": "+10% wild crop drop rate",
   "game:charattribute-wildCropDropRate-0.3": "+30% wild crop drop rate",
+  "game:charattribute-sprintSpeed--0.3": "-30% sprinting speed",
 
   "setting-title-models": "Avaiable models",
   "setting-title-classesandtraits": "Classes and traits",
