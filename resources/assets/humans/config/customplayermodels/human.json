@@ -155,12 +155,11 @@
 				"targetSkinParts": ["base", "breasts"],
 				"overlayTexture": true,
 				"overlayMode": "normal",
-				"textureTemplate": "humans:underwear/{code}",
 				"variants": [
-					{ "code": "hide-breeches" },
-					{ "code": "hide-leotard" },
-					{ "code": "hide-twopiece" },
-					{ "code": "hide-wrap" }
+					{ "code": "hide-breeches", "texture": "humans:underwear/hide-breeches" },
+					{ "code": "hide-leotard", "texture": "humans:underwear/hide-leotard" },
+					{ "code": "hide-twopiece", "texture": "humans:underwear/hide-twopiece" },
+					{ "code": "hide-wrap", "texture": "humans:underwear/hide-wrap" }
 				]
 			},
 			{

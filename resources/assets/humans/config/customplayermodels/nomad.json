@@ -154,16 +154,15 @@
 				"targetSkinParts": ["base", "breasts"],
 				"overlayTexture": true,
 				"overlayMode": "normal",
-				"textureTemplate": "humans:underwear/{code}",
 				"variants": [
-					{ "code": "breeches" },
-					{ "code": "leotard" },
-					{ "code": "twopiece" },
-					{ "code": "wrap" },
-					{ "code": "rags-breeches" },
-					{ "code": "rags-leotard" },
-					{ "code": "rags-twopiece" },
-					{ "code": "rags-wrap" }
+					{ "code": "twopiece", "texture": "humans:underwear/twopiece" },
+					{ "code": "leotard", "texture": "humans:underwear/leotard" },
+					{ "code": "breeches", "texture": "humans:underwear/breeches" },
+					{ "code": "wrap", "texture": "humans:underwear/wrap" },
+					{ "code": "rags-breeches", "texture": "humans:underwear/rags-breeches" },
+					{ "code": "rags-leotard", "texture": "humans:underwear/rags-leotard" },
+					{ "code": "rags-twopiece", "texture": "humans:underwear/rags-twopiece" },
+					{ "code": "rags-wrap", "texture": "humans:underwear/rags-wrap" }
 				]
 			},
 			{
