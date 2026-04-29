@@ -23,7 +23,6 @@
 				"type": "texture", 
 				"textureTarget": "seraph",
 				"targetSkinParts": ["base", "breasts"],
-				"overlayTexture": false,
 				"variants": [
 					{ "code": "skin3", "texture": "humans:skin/skin3" },
 					{ "code": "skin4", "texture": "humans:skin/skin4" },
@@ -40,7 +39,6 @@
 				"type": "texture",
 				"textureTarget": "iris",
 				"targetSkinParts": ["facialexpression"],
-				"overlayTexture": false,
 				"variants": [
 					{ "code": "acid-green", "texture": "humans:eyes/acid-green" },
 					{ "code": "amethyst", "texture": "humans:eyes/amethyst" },
@@ -67,7 +65,6 @@
 				"type": "texture",
 				"textureTarget": "lips",
 				"targetSkinParts": ["facialexpression"],
-				"overlayTexture": false,
 				"variants": [
 					{ "code": "pale-skin1", "texture": "humans:lips/pale-skin1" },
 					{ "code": "pink-skin1", "texture": "humans:lips/pink-skin1" },
@@ -134,7 +131,6 @@
 				"useDropDown": true,
 				"textureTarget": "seraph",
 				"targetSkinParts": ["base", "breasts"],
-				"overlayTexture": true,
 				"overlayMode": "normal",
 				"variants": [
 					{ "code": "twopiece", "texture": "humans:underwear/twopiece" },

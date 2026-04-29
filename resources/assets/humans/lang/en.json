@@ -281,6 +281,10 @@
   "game:charattribute-wildCropDropRate-0.1": "+10% wild crop drop rate",
   "game:charattribute-wildCropDropRate-0.3": "+30% wild crop drop rate",
   "game:charattribute-sprintSpeed--0.3": "-30% sprinting speed",
+  "game:charattribute-steadyAim-0.3": "30% less aim drift",
+
+  "game:charattribute-meleeProficiency": "{0:P0} melee attack speed",
+  "game:charattribute-knightlyProficiency": "{0:P0} knightly weapons attack speed",
 
   "setting-title-models": "Avaiable models",
   "setting-title-classesandtraits": "Classes and traits",
