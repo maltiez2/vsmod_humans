@@ -63,12 +63,13 @@
 			{
 				"code": "tattoo",
 				"type": "texture", 
-				"textureTarget": "tattoo",
+				"textureTarget": "seraph",
 				"targetSkinParts": ["base"],
 				"canvas": true,
 				"size": [16, 16],
 				"colorsNumber": 1,
-				"variants": []
+				"variants": [],
+				"overlayOffset": [10, 9]
 			},
 			{
 				"code": "lipscolor",
