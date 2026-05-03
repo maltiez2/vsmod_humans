@@ -6,8 +6,10 @@
 	"textureWidth": 32,
 	"textureHeight": 76,
 	"textureSizes": {
+		"tattoo": [8,8]
 	},
 	"textures": {
+		"tattoo": "tattoo",
 		"seraph": "body"
 	},
 	"elements": [
@@ -212,6 +214,78 @@
 												"up": { "texture": "#seraph", "uv": [ 6.5, 0.5, 11.5, 6.0 ], "rotation": 90 },
 												"down": { "texture": "#seraph", "uv": [ 6.5, 11.0, 11.5, 16.5 ], "rotation": 90 }
 											},
+											"children": [
+												{
+													"name": "Face",
+													"from": [ -0.5, 0.5, 0.6 ],
+													"to": [ 0.5, 4.5, 4.6 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ -0.5, 0.5, 0.6 ],
+													"faces": {
+													}
+												},
+												{
+													"name": "face-tattoo-front",
+													"from": [ -0.005, 0.0, 0.0 ],
+													"to": [ -0.005, 5.0, 5.0 ],
+													"autoUnwrap": false,
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ -0.1, 0.0, 0.0 ],
+													"faces": {
+														"west": { "texture": "#tattoo", "uv": [ 1.5, 1.5, 6.5, 6.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+													},
+													"children": [
+														{
+															"name": "face-tattoo-left",
+															"from": [ 0.0, 0.0, 5.0 ],
+															"to": [ 0.0, 5.0, 6.0 ],
+															"autoUnwrap": false,
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 0.0, 5.0 ],
+															"rotationY": 89.0,
+															"faces": {
+																"west": { "texture": "#tattoo", "uv": [ 6.5, 1.5, 7.5, 6.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+															}
+														},
+														{
+															"name": "face-tattoo-right",
+															"from": [ 0.0, 0.0, -1.0 ],
+															"to": [ 0.0, 5.0, 0.0 ],
+															"autoUnwrap": false,
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -89.0,
+															"faces": {
+																"west": { "texture": "#tattoo", "uv": [ 0.5, 1.5, 1.5, 6.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+															}
+														},
+														{
+															"name": "face-tattoo-up",
+															"from": [ 0.0, 5.0, 0.0 ],
+															"to": [ 0.0, 6.0, 5.0 ],
+															"autoUnwrap": false,
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 5.0, 0.0 ],
+															"rotationZ": -89.0,
+															"faces": {
+																"west": { "texture": "#tattoo", "uv": [ 1.5, 0.5, 6.5, 1.5 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+															}
+														},
+														{
+															"name": "face-tattoo-front2",
+															"from": [ 0.0, -1.0, 0.0 ],
+															"to": [ 0.0, 0.0, 5.0 ],
+															"autoUnwrap": false,
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationZ": 89.0,
+															"faces": {
+																"west": { "texture": "#tattoo", "uv": [ 1.5, 6.5, 6.5, 7.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+															}
+														}
+													]
+												}
+											],
 											"attachmentpoints": [
 												{
 													"code": "Eyes",
@@ -236,7 +310,6 @@
 									"from": [ 0.0, 0.0, 0.0 ],
 									"to": [ 0.0, 0.0, 0.0 ],
 									"uv": [ 0.0, 0.0 ],
-									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 									"faces": {
 									}
 								},
@@ -245,7 +318,6 @@
 									"from": [ 0.0, 0.0, 0.0 ],
 									"to": [ 0.0, 0.0, 0.0 ],
 									"uv": [ 0.0, 0.0 ],
-									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 									"faces": {
 									}
 								},
@@ -254,7 +326,6 @@
 									"from": [ 0.0, 0.0, 0.0 ],
 									"to": [ 0.0, 0.0, 0.0 ],
 									"uv": [ 0.0, 0.0 ],
-									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
 									"faces": {
 									}
 								}
@@ -13340,7 +13411,7 @@
 				}
 			]
 		},
-		
+
 		{
 			"name": "RideElk-Run-Passenger",
 			"code": "rideelk-run-passenger",
@@ -13417,7 +13488,7 @@
 					}
 				}
 			]
-		},		
+		},
 
 		{
 			"name": "Rideelk-Idle-fp",
@@ -13733,7 +13804,6 @@
 				}
 			]
 		},
-		
 
 		{
 			"name": "RideElk-Run-fp-Passenger",
@@ -13812,9 +13882,7 @@
 				}
 			]
 		},
-				
-		
-		
+
 		{
 			"name": "FluteCall",
 			"code": "flutecall",

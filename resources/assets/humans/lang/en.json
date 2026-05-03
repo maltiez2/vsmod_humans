@@ -13,6 +13,8 @@
   "modeldesc-nomad": "<font color=\"#99c9f9\"><i>Almost extinct after the disaster. Some humans survived as nomads, constantly traveling. They turned into vagabonds hiding in constant fear or into traders traveling in reinforced carriages between fortified enclaves.</i></font><br/><br/>Traveling people. Traders you meet in game are from nomads. Used to long trips, but unused to combat and wearing armor.",
   "modeldesc-ancestor": "<font color=\"#99c9f9\"><i>Strange disease is ravaging crops and people. Humanity dwindles as you struggle to survive. There are rumors of a possible salvation that some of the new inventions will bring, but you somehow feel that it will be your doom.</i></font><br/><br/>People from before the disaster and from the general area of events that triggered said disaster. Used to prosperous life. More healthy and used to good meal.",
 
+  "game:skinpart-tattoo": "Face tattoo",
+
   "game:skinpart-lipscolor": "Lips color",
   "game:skinpart-breasts": "Breasts",
   "game:skinpart-breasts-none": "None",

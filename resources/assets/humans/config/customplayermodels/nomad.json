@@ -73,6 +73,16 @@
 				]
 			},
 			{
+				"code": "tattoo",
+				"type": "texture", 
+				"textureTarget": "tattoo",
+				"targetSkinParts": ["base"],
+				"canvas": true,
+				"size": [16, 16],
+				"colorsNumber": 1,
+				"variants": []
+			},
+			{
 				"code": "lipscolor",
 				"type": "texture",
 				"textureTarget": "lips",
